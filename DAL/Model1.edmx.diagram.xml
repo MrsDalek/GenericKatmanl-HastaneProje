@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f657436a5adb4e7e8cea74dee321b2d3" Name="Diagram1">
+        <EntityTypeShape EntityType="HastaneDBModel.AltBolge" Width="1.5" PointX="1.5" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Bolge" Width="1.5" PointX="1.5" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Doktorlar" Width="1.5" PointX="3.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Hasta" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Hastaneler" Width="1.5" PointX="1.5" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.HastaTahlil" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Muayene" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.MuayeneTedavi" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.MuayeneTur" Width="1.5" PointX="3.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Personeller" Width="1.5" PointX="1.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.sysdiagram" Width="1.5" PointX="3.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Tahliller" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Tedavi" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.TibbiBirimler" Width="1.5" PointX="1.5" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.Unvan" Width="1.5" PointX="1.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneDBModel.vw_Doktor" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="HastaneDBModel.FK_AltBolge_Bolge" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Hastaneler_AltBolge" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Doktorlar_Personeller" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Doktorlar_TibbiBirimler" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Muayene_Doktorlar" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_HastaTahlil_Hasta" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Muayene_Hasta" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Personeller_Hastaneler" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_HastaTahlil_Tahliller" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Muayene_MuayeneTur" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_MuayeneTedavi_Muayene" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_MuayeneTedavi_Tedavi" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneDBModel.FK_Personeller_Unvan" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
